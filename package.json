@@ -1,0 +1,20 @@
+{
+  "name": "Patterns",
+  "version": "1.0.0",
+  "description": "Trying out different design patterns",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "repository": "git@github.com:Leonardoloda/Patterns.git",
+  "author": "Leonardo Lopez Daza",
+  "license": "GNU",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  }
+}
