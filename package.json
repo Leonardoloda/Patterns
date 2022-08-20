@@ -4,7 +4,8 @@
   "description": "Trying out different design patterns",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon main.js"
+    "dev": "nodemon main.js",
+    "run:singleton": "node ./src/Singleton/main.js"
   },
   "repository": "git@github.com:Leonardoloda/Patterns.git",
   "author": "Leonardo Lopez Daza",

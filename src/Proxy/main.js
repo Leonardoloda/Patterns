@@ -17,3 +17,8 @@ lawyer.setMessage(null);
 lawyer.setMessage("Test");
 
 console.info("Lawyer message", lawyer.getMessage());
+
+const { LawyerObjProxy } = require("./Objects/LawyerObjProxy");
+
+LawyerObjProxy.message = "value";
+LawyerObjProxy.greet();
