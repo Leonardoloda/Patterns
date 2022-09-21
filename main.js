@@ -19,4 +19,4 @@ for (let index = 0; index < patterns.length; index++) {
 //   console.info("Input: ", input);
 // });
 
-require("./src/Proxy/main");
+require("./src/Prototype/main");
