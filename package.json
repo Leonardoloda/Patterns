@@ -4,7 +4,10 @@
   "description": "Trying out different design patterns",
   "main": "main.js",
   "scripts": {
+    "server:start": "lerna run start --scope=server",
     "server:dev": "lerna run start:dev --scope=server",
+    "web:start": "lerna run start --scope=web",
+    "web:build": "lerna run build --scope=web",
     "lint": "lerna run lint",
     "format": "lerna run format"
   },
