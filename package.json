@@ -1,22 +1,29 @@
 {
-  "name": "Patterns",
-  "version": "1.0.0",
+  "name": "patterns",
+  "version": "2.0.0",
   "description": "Trying out different design patterns",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon main.js",
-    "run:singleton": "node ./src/Singleton/main.js",
-    "run:proxy": "node ./src/Proxy/main.js"
+    "server:dev": "lerna run start:dev --scope=server",
+    "lint": "lerna run lint",
+    "format": "lerna run format"
   },
   "repository": "git@github.com:Leonardoloda/Patterns.git",
   "author": "Leonardo Lopez Daza",
-  "license": "GNU",
-  "private": false,
+  "license": "UNLICENSED",
+  "private": true,
   "devDependencies": {
     "eslint": "^8.22.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.5.0",
-    "nodemon": "^2.0.19",
     "prettier": "^2.7.1"
-  }
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "lerna": "^6.3.0"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
 }
+
